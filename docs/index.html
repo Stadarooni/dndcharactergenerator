@@ -17,7 +17,9 @@
         <hr><br>
     </header>
     <main>
-        <button id="generateButton" style="transform: translateX(5%);" onclick="window.print()">Print</button>
+        <div style="display:flex; justify-content: center;">
+            <button id="generateButton" style="transform: translateX(0%);" onclick="window.print()">Print</button>
+        </div>
         <form action="http://localhost:8080/generateCharacter" method="POST" id="characterGen" onsubmit="event.preventDefault(); generateCharacter();">
             <div style="display:flex; justify-content: center;">
                 <button type="submit" id="generateButton" style="transform: translateX(0%);">Generate</button>
