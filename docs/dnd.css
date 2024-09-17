@@ -67,25 +67,19 @@
     #characterSheets, #characterSheets * {
         visibility: visible;
     }
-    
     #characterSheets {
         width: 100%;
         position: relative;
+        transform: scale(1.5);
     }
-    .character-sheet{
-        width: 100%;
-        height: auto;
-        page-break-after: always;
+    #cs1 {
+        transform: translateY(-7.5%);
     }
-    .characterText{
-        background-color: transparent;
-        border: none;
-        position: absolute; /* Keep absolute positioning */
-        text-align: center;
-        font-size: 1.5vw; /* Make font size responsive */
+    #cs2 {
+        transform: translateY(15%);
     }
     #page-break{
         page-break-before: always;
     }
-   
+    /* ill have to fix this at some point*/
 }
